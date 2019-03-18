@@ -8,12 +8,11 @@ To setup and start the project do the following:
 3. Run command __npm start__ in the root directory to start the project. You can also start it using __node app.js__.
 
 ## How to use the API
-1. To get a block using its height make a GET request to the following URL:
-  http://localhost:8000/block/height
+1. To get a block using its height make a GET request to the following URL: <br>
+  http://localhost:8000/block/height <br>
  where __height__ in the above url is a positive integer.
-2. To post a block with the a __body__ payload make a POST request to the following URL:
- http://localhost:8000/block
-An example request looks like the following:
+2. To post a block with the a __body__ payload make a POST request to the following URL: <br>
+ http://localhost:8000/block <br> An example request looks like the following:
 ```
 {
       "body": "Testing block with test string data"
