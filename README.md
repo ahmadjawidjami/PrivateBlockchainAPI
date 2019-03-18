@@ -9,10 +9,10 @@ To setup and start the project do the following:
 
 ## How to use the API
 1. To get a block using its height make a GET request to the following URL:
-  URL: http://localhost:8000/block/height
+  http://localhost:8000/block/height
  where __height__ in the above url is a positive integer.
 2. To post a block with the a __body__ payload make a POST request to the following URL:
- URL: http://localhost:8000/block
+ http://localhost:8000/block
 An example request looks like the following:
 ```
 {
